@@ -32,3 +32,7 @@
 
 - Task summary: Noticed something off from this morning — the test I wrote this morning had a hardcoded path, swapped it for a relative one.
 - Deliverable: Solid now, moving on.
+## 2021-04-22 - Day 3: Cleaning pass
+
+- Task summary: Circled back: went back and reorganized the config section so values are not buried mid-script.
+- Deliverable: Cleaner than this morning's version.
