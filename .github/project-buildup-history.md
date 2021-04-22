@@ -28,3 +28,7 @@
 
 - Task summary: Circled back: there was a subtle off-by-one error in the index slicing that was silently skewing results. Caught it and fixed it.
 - Deliverable: Solid now, moving on.
+## 2021-04-22 - Day 3: Cleaning pass
+
+- Task summary: Noticed something off from this morning — the test I wrote this morning had a hardcoded path, swapped it for a relative one.
+- Deliverable: Solid now, moving on.
