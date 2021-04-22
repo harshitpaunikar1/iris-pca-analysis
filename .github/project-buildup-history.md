@@ -20,3 +20,7 @@
 
 - Task summary: By this point I had the rough direction, so the work became more practical. I spent most of the day trying to standardize types, missing values, and duplicate rows and make the whole thing feel less half baked. By now I had enough structure to keep going without staring at the screen too long, which honestly helped a lot. Most of the progress here came from patient cleanup more than anything flashy.
 - Deliverable: I wrapped up the day with cleaned dataset mostly in place. It was not perfect, but it was good enough to keep the project moving. There were still a couple of loose parts, but nothing serious enough to block the next step.
+## 2021-04-22 - Day 3: Cleaning pass
+
+- Task summary: Circled back: added a sanity check assertion that would catch obvious data shape issues early.
+- Deliverable: Solid now, moving on.
