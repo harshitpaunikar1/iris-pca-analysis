@@ -24,3 +24,7 @@
 
 - Task summary: Circled back: added a sanity check assertion that would catch obvious data shape issues early.
 - Deliverable: Solid now, moving on.
+## 2021-04-22 - Day 3: Cleaning pass
+
+- Task summary: Circled back: there was a subtle off-by-one error in the index slicing that was silently skewing results. Caught it and fixed it.
+- Deliverable: Solid now, moving on.
