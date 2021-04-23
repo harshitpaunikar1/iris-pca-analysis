@@ -44,3 +44,7 @@
 
 - Task summary: Ended up revisiting this in the evening — fixed the README section that was missing the setup step — embarrassing oversight.
 - Deliverable: Minor but worth doing.
+## 2021-04-23 - Day 4: Scaling
+
+- Task summary: Quick follow-up: re-ran the plots with better axis labels and a more readable color palette.
+- Deliverable: Should've caught it earlier but better now than later.
