@@ -48,3 +48,7 @@
 
 - Task summary: Quick follow-up: re-ran the plots with better axis labels and a more readable color palette.
 - Deliverable: Should've caught it earlier but better now than later.
+## 2021-04-26 - Day 5: EDA
+
+- Task summary: This was the middle stretch where the project started feeling real. I kept going and tried to look at distributions and correlations to understand redundancy in the data, then cleaned up whatever looked confusing or weak from the earlier days. The middle part always takes longer than it should, mostly becuase one fix usually reveals two more things to clean up. I kept bouncing between the notebook, small observations, and quick plots until the direction felt usable.
+- Deliverable: I wrapped up the day with eDA summary mostly in place. It was not perfect, but it was good enough to keep the project moving. I also left myself a few rough reminders for the next day so I would not have to rediscover the same context again.
