@@ -56,3 +56,7 @@
 
 - Task summary: Circled back: pushed a config tweak after noticing the wrong default param was being used.
 - Deliverable: Nothing dramatic — just keeping things tidy.
+## 2021-04-27 - Day 6: PCA run
+
+- Task summary: This was the middle stretch where the project started feeling real. I kept going and tried to run PCA and inspect explained variance across components, then cleaned up whatever looked confusing or weak from the earlier days. By now I had enough structure to keep going without staring at the screen too long, which honestly helped a lot. Most of the progress here came from patient cleanup more than anything flashy.
+- Deliverable: Ended the day with pCA output in hand, plus a few side notes on what still needed fixing later. There were still a couple of loose parts, but nothing serious enough to block the next step.
