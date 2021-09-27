@@ -12,3 +12,7 @@
 
 - Task summary: Extended the iris PCA work to include reconstruction error analysis. Reconstructed the original features from 1, 2, and 3 components and measured the MSE at each level. Also added a biplot combining scores and loadings in one view — had to adjust the scaling factor a few times before it looked readable. The notebook was getting a bit long so spent the last hour reorganizing it into logical sections with clear markdown headers.
 - Deliverable: Biplot added, reconstruction analysis done, notebook reorganized.
+## 2021-09-27 - Day 4: Reconstruction and evaluation
+
+- Task summary: Quick fix before closing: the color legend on the scatter plot was overlapping with the axis labels on smaller screen sizes. Adjusted the legend position and added a tight layout call.
+- Deliverable: Plot layout fixed. Looks clean at standard notebook width now.
