@@ -20,3 +20,7 @@
 
 - Task summary: Added a Linear Discriminant Analysis comparison to the iris notebook to contrast with PCA. Since LDA uses the class labels it naturally gives a better separation in 2D — that is expected and worth explaining. The goal was to write a clear side-by-side that shows when you would prefer each. Wrote a brief explanation of supervised vs unsupervised dimensionality reduction in the markdown and added a 2x2 subplot layout for the comparison.
 - Deliverable: PCA vs LDA comparison added. Clear explanation of tradeoff written up.
+## 2021-11-08 - Day 5: Comparison with LDA
+
+- Task summary: Minor fix: the LDA implementation was using all three components but the 2D plot was only using the first two. Made it explicit and added a note explaining why three components exist for a three-class problem.
+- Deliverable: LDA component count documented. Plot is intentionally 2D.
