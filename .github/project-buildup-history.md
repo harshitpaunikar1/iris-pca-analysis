@@ -16,3 +16,7 @@
 
 - Task summary: Quick fix before closing: the color legend on the scatter plot was overlapping with the axis labels on smaller screen sizes. Adjusted the legend position and added a tight layout call.
 - Deliverable: Plot layout fixed. Looks clean at standard notebook width now.
+## 2021-11-08 - Day 5: Comparison with LDA
+
+- Task summary: Added a Linear Discriminant Analysis comparison to the iris notebook to contrast with PCA. Since LDA uses the class labels it naturally gives a better separation in 2D — that is expected and worth explaining. The goal was to write a clear side-by-side that shows when you would prefer each. Wrote a brief explanation of supervised vs unsupervised dimensionality reduction in the markdown and added a 2x2 subplot layout for the comparison.
+- Deliverable: PCA vs LDA comparison added. Clear explanation of tradeoff written up.
