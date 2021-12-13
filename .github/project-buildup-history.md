@@ -24,3 +24,7 @@
 
 - Task summary: Minor fix: the LDA implementation was using all three components but the 2D plot was only using the first two. Made it explicit and added a note explaining why three components exist for a three-class problem.
 - Deliverable: LDA component count documented. Plot is intentionally 2D.
+## 2021-12-13 - Day 6: Write-up finalization
+
+- Task summary: Finalized the iris PCA analysis write-up today. Added a conclusion section summarizing the key findings — how much variance is captured, which features load on which components, and how the projection relates to the species taxonomy. Also added a short section at the end on what next steps would look like if this were a real production task (dimensionality reduction before a downstream classifier, monitoring component drift). Cleaned up all the inline comments and made the notebook presentable.
+- Deliverable: Write-up complete. Notebook presentable and tells a coherent story.
