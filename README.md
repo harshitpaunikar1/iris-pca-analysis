@@ -1,2 +1,2 @@
-# Project-10
+# Iris PCA Analysis
 PCA Iris dataset 
