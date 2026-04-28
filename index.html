@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Geometry of Less — PCA from First Principles</title>
+<title>The Geometry of Less - PCA from First Principles</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&family=Overpass+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -660,7 +660,7 @@ from sklearn.decomposition import PCA
 iris = load_iris()
 X, y = iris.data, iris.target
 
-# Standardize: critical step — skip this and large-magnitude
+# Standardize: critical step - skip this and large-magnitude
 # features dominate the variance decomposition
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -673,11 +673,11 @@ pca.fit(X_scaled)
 var_ratio = pca.explained_variance_ratio_
 # array([0.7296, 0.2285, 0.0367, 0.0052])
 
-# Cumulative variance — where does the elbow fall?
+# Cumulative variance - where does the elbow fall?
 cumvar = np.cumsum(var_ratio)
 # array([0.7296, 0.9581, 0.9949, 1.0000])
 
-# Component loadings — the rotation matrix
+# Component loadings - the rotation matrix
 # Shape: (n_components, n_features)
 loadings = pca.components_
 # PC1: [ 0.521, -0.269,  0.580,  0.565]
@@ -685,7 +685,7 @@ loadings = pca.components_
 
 # Project onto first two components
 X_pca = pca.transform(X_scaled)[:, :2]
-# X_pca shape: (150, 2) — ready for scatter or clustering
+# X_pca shape: (150, 2) - ready for scatter or clustering
 </pre>
 
   <p>A note on signs: PCA eigenvectors have an arbitrary sign convention. PC1 might have all positive loadings in one run and all negative in another, depending on the implementation's internal choice. The <em>direction</em> is identical; only the sign flips. When comparing loadings across libraries or runs, check the relative signs rather than the absolute values.</p>
@@ -699,11 +699,11 @@ X_pca = pca.transform(X_scaled)[:, :2]
 pca_2 = PCA(n_components=2, random_state=42)
 X_pca2 = pca_2.fit_transform(X_scaled)
 X_reconstructed = pca_2.inverse_transform(X_pca2)
-# X_reconstructed shape: (150, 4) — in standardized space
+# X_reconstructed shape: (150, 4) - in standardized space
 
 # Reconstruction error (mean squared)
 mse = np.mean((X_scaled - X_reconstructed) ** 2)
-# mse ≈ 0.042 — the discarded 4.2% variance, now as error
+# mse ≈ 0.042 - the discarded 4.2% variance, now as error
 </pre>
 
   <p>This reconstruction framing is useful for anomaly detection: fit PCA on normal data, then flag observations whose reconstruction error is unusually high as potential anomalies. The 4.2% dropped from Iris generates essentially random reconstruction error &mdash; which is what noise looks like. A real anomaly generates structured reconstruction error in specific features.</p>
